@@ -1,0 +1,32 @@
+{
+  "name": "namaste-react",
+  "version": "1.0.0",
+  "description": "Here i am learning react",
+  "scripts": {
+    "start": "parcel react.html",
+    "build": "parcel build react.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nirbhay-kumar362055/React.git"
+  },
+  "keywords": [],
+  "author": "Nirbhay kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nirbhay-kumar362055/React/issues"
+  },
+  "homepage": "https://github.com/Nirbhay-kumar362055/React#readme",
+  "dependencies": {
+    "parcel": "^2.13.3",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "process": "^0.11.10"
+  },
+  "browserslist" : [
+    "last 5 versions"
+  ]
+}
