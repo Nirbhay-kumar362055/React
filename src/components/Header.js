@@ -1,4 +1,9 @@
+
+import { useState } from "react";
+import { Link  }   from "react-router-dom";
+
 const Header = () => {
+    const [btnName , setBtnName] = useState("login");
     return (
     <div className="header">
         <div className = "logoimg">
@@ -6,10 +11,13 @@ const Header = () => {
         </div>
         <div className="nav-bar">
             <ul>
-                <li> Home</li>
+                <li><link to ="/">Home</link></li>
                 <li>About</li>
                 <li>contact us</li>
-                <li>sign in</li>
+                <li>cart</li>
+                <button className="btn-login" onClick={() => {
+                    btnName === "login" ? setBtnName("logout") : setBtnName("login");
+                }}>{btnName}</button>
             </ul>
         </div>
     </div>

@@ -78,3 +78,7 @@ body {
     flex-wrap: wrap;
     
 }
+.res-btn {
+    display : flex;
+    padding : 20px;
+}
